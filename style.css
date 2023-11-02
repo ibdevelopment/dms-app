@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f2;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 20px;
+}
+
+.logo1 h1 {
+  color: #030026;
+  font-size: 2rem;
+}
+
+.hero-container {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 2rem;
+  margin-top: 1%;
+  padding-left: 10%;
+}
+
+.left-hero-container {
+  text-align: center;
+  font-family: DM Sans;
+}
+
+.left-hero-container > div > h1 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.left-hero-container > div > p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400px;
+  margin: 1rem 0rem;
+}
+.left-hero-container > button {
+  padding: 13px 23px;
+  background: #053582;
+  color: #e2e2ea;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right-hero-container {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 500px;
+  margin-bottom: 10%;
+
+
+}
+
+.bikepix {margin-top: 1px;}
+
+.right-hero-container h1 {
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.right-hero-container p {
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.progress-bar {
+  width: 100%;
+}
+.basic-info > p {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5%;
+  padding-left: 1%;
+}
+.basic-info > h1 {
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.enter-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.enter-details input {
+  padding: 17px;
+  border-radius: 10px;
+  border: 1px solid #e2e2ea;
+
+  background: #fff;
+}
+.names {
+  display: flex;
+  gap: 0.6rem;
+}
+.names input {
+  width: 100%;
+  border-radius: 10px;
+}
+.account-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.account-info p {
+  margin-left: 1rem;
+}
+.account-info button {
+  padding: 13px 23px;
+  background: #053582;
+  color: #e2e2ea;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bikepix{ margin-top: 1%;}
+.account-info > p {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  justify-content: center;
+  font-weight: 400;
+}
+/* HERO SECTION */
+
+/* MEDIA */
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+}
