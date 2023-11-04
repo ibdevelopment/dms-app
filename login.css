@@ -81,7 +81,7 @@ ul {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 30px;
-  max-width: 550px;
+  max-width: 450px;
   margin-right: 20px;
   
 }
@@ -123,7 +123,7 @@ ul {
 }
 
 .enter-details-child > input {
-  width: 416px;
+  width: 370px;
   height: 48px;
   border-radius: 10px;
   border: 1px solid #e2e2ea;
@@ -149,7 +149,7 @@ ul {
   background: #fff;
   flex-direction: column;
   flex-shrink: 0;
-  padding-left: 24px;
+  padding-left: 15px;
   cursor: pointer;
   padding-bottom: 2px;
   height: 48px;
