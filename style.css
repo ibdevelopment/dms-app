@@ -160,9 +160,20 @@ ul {
 /* HERO SECTION */
 
 /* MEDIA */
+.sign{color:red;
+font-weight: 50px; font-size: larger;}
 
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 478px) {
+  .account-info {
+    flex-direction: column;
+    align-items: center;
+
   }
 }

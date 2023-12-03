@@ -45,34 +45,17 @@ ul {
   padding-left: 30px;
 }
 
-.left-hero-container > div > h1 {
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-}
 
-.left-hero-container > div > p {
-  text-align: center;
-  /* H4 */
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400px;
-  height: 80.412px;
-}
-
-/* HERO SECTION */
 
 .left-hero-container > button {
-  padding:
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
   border-radius: 10px;
   background: #6c8dc3;
   color: #e2e2ea;
+  justify-content: center;
+  flex: 50%;
 }
 
 .right-hero-container {
@@ -84,6 +67,7 @@ ul {
   max-width: 500px;
   padding-right: 20px;
   justify-content: center;
+  flex: 50%;
   
 }
 
@@ -91,10 +75,10 @@ ul {
   flex-direction: column;
 }
 
-.forgetpass {
+/* .forgetpass {
   padding-bottom: 4px;
   padding-top: 50px;
-  color: #053582;
+  color: #053582; */
 }
 .one > h1 {
   color: #393939;
@@ -187,15 +171,16 @@ flex: auto;}
   padding-bottom: 5px;
 }
 
-.regbottom {
+/* .regbottom {
   margin-top: 20%;
   color: #3d0582;
 }
-.reg{color: #824305;
-cursor: pointer;}
+.reg{color: #82051e;} */
 
-.forgetpass{color: #058273;
-cursor: pointer;}
+.forge{color: #058273;
+cursor: pointer;
+color: #82051e;
+justify-content: center;}
 
 
 .btndown {padding: 20px 30px;
@@ -244,6 +229,7 @@ cursor: pointer;}
    
   
 }
+
 
 
 
